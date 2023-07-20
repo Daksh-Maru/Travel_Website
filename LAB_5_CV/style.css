@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 1.2rem;
+    background-color: #a9dfdd;
+}
+.heading{
+    text-align: center;
+    font-size: 2.3rem;
+    text-transform: capitalize;
+}
+hr.dashed{
+    margin: 0px 400px;
+    border-top: 3px dashed #3f62a4;
+}
+.img-name{
+    margin: 3px 0;
+    padding: 1px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.img-name .left img{
+    margin: 10px 105%;
+    width: 55%;
+    box-shadow: 5px 5px #002b47;
+}
+.img-name .right {
+    margin: 50px;
+    margin-right: 23%;
+    text-align: center;
+}
+.img-name .right h2{
+    font-size: 55px;
+}
+.img-name .right h3{
+    font-size: 35px;
+}
+.img-name .right h4{
+    font-size: 25px;
+}
+
+.Summary{
+    align-items: center;
+    margin: 44px 400px;
+}
+/* left and right--> 400px */
+/* top and botton--> 44px */
+.Summary table{
+    border: 3px solid #3485c0;
+    border-collapse: collapse;
+    width: 100%;
+}
+.Summary th{
+    text-align: left;
+    font-size: 2.4rem;
+    border: 3px solid #3485c0;
+}
+.Summary td{
+    border: 3px solid #3485c0;
+    font-size: 1.3rem;
+}
+
+.Experience{
+    align-items: center;
+    margin: 44px 400px;
+}
+.Experience table{
+    border: 3px solid #3485c0;
+    border-collapse: collapse;
+    width: 100%;
+}
+.Experience th{
+    text-align: left;
+    font-size: 2.4rem;
+    border: 3px solid #3485c0;
+}
+.Experience td{
+    border: 3px solid #3485c0;
+    font-size: 1.3rem;    
+}
+/* this si seperate */
+.inner-headings{
+    height: 56px;
+}
+tr{
+    height: 44px;
+}
+.Education{
+    align-items: center;
+    margin: 44px 400px
+}
+.Education table{
+    border: 3px solid #3485c0;
+    border-collapse: collapse;
+    width: 100%;
+}
+.Education th{
+    text-align: left;
+    font-size: 2.4rem;
+    border: 3px solid #3485c0;
+}
+.Education td{
+    border: 3px solid #3485c0;
+    font-size: 1.3rem; 
+}
+
+.Skills{
+    align-items: center;
+    margin: 44px 400px;
+}
+.Skills table{
+    border: 3px solid #3485c0;
+    border-collapse: collapse;
+    width: 100%;
+}
+.Skills th{
+    text-align: left;
+    font-size: 2.4rem;
+    border: 3px solid #3485c0;
+}
+.Skills td{
+    border: 3px solid #3485c0;
+    font-size: 1.3rem;
+}
+
+.Hobbies-Interests{
+    align-items: center;
+    margin: 44px 400px;
+}
+.Hobbies-Interests table{
+    border: 3px solid #3485c0;
+    border-collapse: collapse;
+    width: 100%;
+}
+.Hobbies-Interests th{
+    text-align: left;
+    font-size: 2.4rem;
+    border: 3px solid #3485c0;
+}
+.Hobbies-Interests td{
+    border: 3px solid #3485c0;
+    font-size: 1.3rem;
+}
+td{
+    text-align: center;
+}

@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+html{
+    font-size: 16px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+.inner{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 1%;
+}
+.wrapper{
+    width: 100%;
+    background-color: #f4f6fa;
+    height: 100vh;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(34 44 56/50%);
+    position: fixed;
+    z-index: 5;
+    padding: 15px 0;
+    color: #333;
+    transition: top 0.3s;
+}
+.nav-bar{
+    align-items: center;
+    padding: 0 1%;
+}
+.nav-bar .blue{
+    color: #3ec70b;
+
+}
+.nav-bar h2{
+    color: black;
+    font-size: 1.8rem;
+}
+.navbar ul{
+    width: 45%;
+    align-items: center;
+}
+.nav-bar ul li{
+    list-style: none;
+    font-size: 1rem;
+}
+.nav-bar ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav-bar ul a:hover{
+    color: #3ec70b;
+    cursor: pointer;
+}
+.nav-ber .toggle-btn{
+    display: none;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color:#3ec70b
+}
+.banner{
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner .left{
+    width: 43%;
+}
+.left img{
+    width: 90%;
+    border-radius: 10px;
+}
+.banner .right{
+    width: 53%;
+    text-align: center;
+}
+.banner .right h1{
+    font-size: 4.5rem;
+    color: rgb(66,66,66);
+    font-style: italic;
+}
+.banner .right h2{
+    font-size: 5.5rem;
+    color:#eb5353;
+}
+.right h3{
+    font-size: 2.5rem;
+    color: #3ec70b;
+    margin: 20px 0;
+}
+.code{
+    color: #3ec70b;
+}
+.banner .right p{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color: gray;
+    margin-top: 30px;
+}
+.btn{
+    padding: 12px 30px;
+    margin-top: 20px;
+    border-radius: 4px;
+    background-color: #3ec70b;
+    color: #fff;
+    box-shadow: 0 6px 24px rgb(99 71 249/ 40%);
+    transition: all 0.3 ease;
+    font-size: 1.2rem;
+    border: none;
+}
+.btn1 {
+    background-color: #fff;
+    color: #3ec70b;
+    box-shadow: 0 6px 24px #e4e2ee;
+    margin-left: 15px;
+}
+.four-section{
+    text-align: center;
+    padding: 100px 0;
+}
+.four-section h3{
+    color: #3ec70b;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+.four-section h1{
+    text-transform: capitalize;
+    padding-top: 5px;
+    font-size: 2.25rem;
+}
+.boxes{
+    padding: 50px 0;
+}
+.box{
+    width: 23%;
+    background-color: #f4f6fa;
+    box-shadow: 10px 2px 8px rgba(5, 5, 5, 0.12);
+    border-radius: 14px;
+    padding-bottom: 5px;
+}
+.img-box{
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+}
+.box img{
+    width: 100%;
+    border-radius: 14px 14px 0 0;
+    transition: 0.5s all ease-in-out;
+}
+.img-box:hover{
+    border-radius: 14px 14px 0 0;
+}
+.box:hover img{
+    transform: scale(1.2);
+}
+.text{
+    text-align: left;
+    padding: 15px;
+}
+.text h2{
+    font-size: 1.5rem;
+    padding: 5px 0;
+    text-transform: capitalize;
+}
+.text h4{
+    color: gray;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.inner-box{
+    width: 100%;
+    padding-top: 10px;
+}
+.icon{
+    padding-right: 10px;
+
+}
